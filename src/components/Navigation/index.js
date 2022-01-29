@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Navigation() {
+
     return (
         <nav>
             <ul>
-                <h4>About Me</h4>
-                <h4>Portfolio</h4>
-                <h4>Contact</h4>
-                <h4>Resume</h4>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#about">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#about">Contact</a>
+                </li>
+                <li>
+                    <a href="#about">Resume</a>
+                </li>
             </ul>
         </nav>
     );
