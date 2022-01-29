@@ -10,6 +10,7 @@ main {
   --tertiary: #c2847a;
   --light: #eee0cb;
   --dark: #280003ff;
+  --padding1: .5rem 3rem;
 }
 * {
   box-sizing: border-box;
@@ -35,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
+  padding: var(--padding1);
 }
 h1 {
   font-size: 2.25rem;
@@ -69,9 +71,9 @@ a:hover {
 
 /* header and navigation */
 header {
-  border-bottom: var(--tertiary);
+  border-bottom: .25rem solid var(--tertiary);
 }
-header nav {
+header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -84,17 +86,16 @@ header nav ul {
   align-items: center;
   list-style: none;
 }
-header nav ul h3 {
-  padding: .5rem 2rem;
-}
 
 /* footer */
 footer {
   position: absolute;
-  bottom: 2rem;
+  bottom: 0;
   width: 100%;
+  border-top: .25rem solid var(--tertiary);
 }
 footer div {
   display: flex;
   justify-content: space-evenly;
+  padding: var(--padding1);
 }

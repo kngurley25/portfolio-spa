@@ -3,12 +3,11 @@ import React from "react";
 function Navigation() {
     return (
         <nav>
-            <h1>Kristin Gaito</h1>
             <ul>
-                <h3>About Me</h3>
-                <h3>Portfolio</h3>
-                <h3>Contact</h3>
-                <h3>Resume</h3>
+                <h4>About Me</h4>
+                <h4>Portfolio</h4>
+                <h4>Contact</h4>
+                <h4>Resume</h4>
             </ul>
         </nav>
     );
