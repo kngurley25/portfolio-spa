@@ -11,6 +11,7 @@ main {
   --light: #eee0cb;
   --dark: #280003ff;
   --padding1: .5rem 3rem;
+  --padding2: 1rem 5rem;
 }
 * {
   box-sizing: border-box;
@@ -59,6 +60,7 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
+  font-weight: lighter;
 }
 a {
   text-decoration: none;
@@ -88,11 +90,17 @@ header nav ul {
 }
 
 /* section: about */
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .profile-pic {
   max-width: 10rem;
   max-height: 15rem;
   border-radius: .5rem;
   box-shadow: 0 0 1rem rgb(128, 128, 128 );
+  margin: 2rem;
 }
 
 /* footer */
