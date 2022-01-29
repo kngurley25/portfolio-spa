@@ -87,6 +87,14 @@ header nav ul {
   list-style: none;
 }
 
+/* section: about */
+.profile-pic {
+  max-width: 10rem;
+  max-height: 15rem;
+  border-radius: .5rem;
+  box-shadow: 0 0 1rem rgb(128, 128, 128 );
+}
+
 /* footer */
 footer {
   position: absolute;
