@@ -108,9 +108,27 @@ header nav ul li {
   margin: 2rem;
 }
 
+/* section: portfolio */
+.portfolio-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  margin: .5rem 1rem;
+  text-align: center;
+  border-radius: .5rem;
+  border-color: var(--secondary);
+  border-width: .1rem;
+}
+.card a {
+  font-size: 1rem;
+}
+
 /* footer */
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   border-top: .25rem solid var(--tertiary);
