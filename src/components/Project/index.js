@@ -33,8 +33,8 @@ function Project() {
                 <Card.Img src={require(`../../assets/images/projects/${i}.jpg`)} alt={project.title} key={project.title}></Card.Img>
                 <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
-                    <Card.Link href={project.url}>Deployed</Card.Link>
-                    <Card.Link href={project.github}>GitHub</Card.Link>
+                    <Card.Link href={project.url} target="_blank">Deployed</Card.Link>
+                    <Card.Link href={project.github} target="_blank">GitHub</Card.Link>
                 </Card.Body>
             </Card>
            ))}

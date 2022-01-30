@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Project from "./components/Project";
 import ContactForm from "./components/Contact";
+import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <About></About>
       <Project></Project>
       <ContactForm></ContactForm>
+      <Resume></Resume>
       </main>
 
       <Footer></Footer>
