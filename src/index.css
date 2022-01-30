@@ -140,6 +140,15 @@ header nav ul li {
 .form-control {
   margin-bottom: 0.5rem;
 }
+button {
+  background-color: var(--tertiary);
+  color:white;
+  border: 0;
+  border-radius: .5rem;
+  margin: 1rem;
+  padding: var(--padding1);
+  font-weight: bold;
+}
 
 /* footer */
 footer {

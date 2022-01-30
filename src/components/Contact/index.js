@@ -15,8 +15,9 @@ function ContactForm() {
                 </Form.Group>
                 <Form.Group>
                     <Form.Label htmlFor="message">Message</Form.Label>
-                    <Form.Control as="textarea" type="text" name="message" placeholder="Enter message"></Form.Control>
+                    <Form.Control as="textarea" rows={5} type="text" name="message" placeholder="Enter message"></Form.Control>
                 </Form.Group>
+                <button type="submit">Submit</button>
             </Form>
         </section>
     )
