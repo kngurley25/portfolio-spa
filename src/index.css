@@ -70,7 +70,11 @@ a {
   padding: var(--padding1);
 }
 a:hover {
-  font-weight: bold; 
+  background-color: var(--tertiary);
+  border-radius: .5rem;
+  border-width: .25rem;
+  border-color: var(--secondary);
+  color: white;
 }
 
 /* header and navigation */
@@ -119,10 +123,10 @@ header nav ul li {
   margin: .5rem 1rem;
   text-align: center;
   border-radius: .5rem;
+  border-width: .25rem;
   border-color: var(--secondary);
   background-color: var(--primary);
   color: white;
-  border-width: .25rem;
 }
 .card a {
   font-size: 1rem;

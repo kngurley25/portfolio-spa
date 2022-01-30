@@ -27,17 +27,19 @@ function Project() {
     ]);
 
     return (
-        <section className="portfolio-section">
-           {projects.map((project, i) => (
-            <Card style={{ width: '25rem' }}>
-                <Card.Img src={require(`../../assets/images/projects/${i}.jpg`)} alt={project.title} key={project.title}></Card.Img>
-                <Card.Body>
-                    <Card.Title>{project.title}</Card.Title>
-                    <Card.Link href={project.url} target="_blank">Deployed</Card.Link>
-                    <Card.Link href={project.github} target="_blank">GitHub</Card.Link>
-                </Card.Body>
-            </Card>
-           ))}
+        <section>
+            <div className="portfolio-section">
+            {projects.map((project, i) => (
+                <Card style={{ width: '25rem' }}>
+                    <Card.Img src={require(`../../assets/images/projects/${i}.jpg`)} alt={project.title} key={project.title}></Card.Img>
+                    <Card.Body>
+                        <Card.Title>{project.title}</Card.Title>
+                        <Card.Link href={project.url} target="_blank">Deployed</Card.Link>
+                        <Card.Link href={project.github} target="_blank">GitHub</Card.Link>
+                    </Card.Body>
+                </Card>
+            ))}
+           </div>
         </section>
     );
 }
