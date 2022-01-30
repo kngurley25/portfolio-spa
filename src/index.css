@@ -5,7 +5,7 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #baa898ff;
+  --primary: #344966;
   --secondary: #848586ff;
   --tertiary: #c2847a;
   --light: #eee0cb;
@@ -120,10 +120,16 @@ header nav ul li {
   text-align: center;
   border-radius: .5rem;
   border-color: var(--secondary);
-  border-width: .1rem;
+  background-color: var(--primary);
+  color: white;
+  border-width: .25rem;
 }
 .card a {
   font-size: 1rem;
+  color: white;
+}
+.card-title {
+  font-weight: bold;
 }
 
 /* footer */

@@ -29,8 +29,8 @@ function Project() {
     return (
         <section className="portfolio-section">
            {projects.map((project, i) => (
-            <Card>
-                <Card.Img src={require(`../../assets/images/projects/${i}.jpg`).default} alt={project.title} key={project.title}></Card.Img>
+            <Card style={{ width: '25rem' }}>
+                <Card.Img src={require(`../../assets/images/projects/${i}.jpg`)} alt={project.title} key={project.title}></Card.Img>
                 <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Link href={project.url}>Deployed</Card.Link>
