@@ -132,6 +132,11 @@ header nav ul li {
   font-weight: bold;
 }
 
+/* section: contact */
+.form-control {
+  margin-bottom: 0.5rem;
+}
+
 /* footer */
 footer {
   position: relative;
