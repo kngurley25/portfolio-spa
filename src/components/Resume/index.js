@@ -4,8 +4,16 @@ const resume = require('../../assets/pdf/resume.pdf');
 function Resume() {
     return (
         <section>
+            <h3>My Resume</h3>
             <div>
-                <a href={resume} download="KristinGaito_Resume">Download my resume</a>
+                <a href={resume} download="KristinGaito_Resume">Download</a>
+            </div>
+            <div>
+                <h5>Technical Skills</h5>
+                <ul>
+                    <li>sample</li>
+                    <li>sample</li>
+                </ul>
             </div>
         </section>
     );
