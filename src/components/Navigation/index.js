@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 function Navigation() {
 
@@ -6,16 +7,40 @@ function Navigation() {
         <nav>
             <ul>
                 <li>
-                    <a href="#about">About Me</a>
+                    <NavLink 
+                    activeClassName="active"
+                    isActive={() => window.location.pathname === "/"}
+                    to="/"
+                    >
+                        About Me
+                    </NavLink>
                 </li>
                 <li>
-                    <a href="#about">Portfolio</a>
+                <NavLink 
+                    activeClassName="active"
+                    isActive={() => window.location.pathname === "/Project"}
+                    to="/Project"
+                    >
+                        Portfolio
+                    </NavLink>
                 </li>
                 <li>
-                    <a href="#about">Contact</a>
+                <NavLink 
+                    activeClassName="active"
+                    isActive={() => window.location.pathname === "/ContactForm"}
+                    to="/ContactForm"
+                    >
+                        Contact
+                    </NavLink>
                 </li>
                 <li>
-                    <a href="#about">Resume</a>
+                <NavLink 
+                    activeClassName="active"
+                    isActive={() => window.location.pathname === "/Resume"}
+                    to="/Resume"
+                    >
+                        Resume
+                    </NavLink>
                 </li>
             </ul>
         </nav>

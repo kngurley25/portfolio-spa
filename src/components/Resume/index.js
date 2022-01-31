@@ -3,7 +3,7 @@ const resume = require('../../assets/pdf/resume.pdf');
 
 function Resume() {
     return (
-        <section>
+        <section className="resume-section">
             <h3>My Resume</h3>
             <div>
                 <a href={resume} download="KristinGaito_Resume">Download</a>

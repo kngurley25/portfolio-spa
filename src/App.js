@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
 import About from "./components/About";
 import Project from "./components/Project";
@@ -13,16 +13,21 @@ function App() {
 
   return (
     <div>
-      <Header></Header>
+      <Router>
+        <Header></Header>
 
-      <main>
-      <About></About>
-      <Project></Project>
-      <ContactForm></ContactForm>
-      <Resume></Resume>
-      </main>
+        <Switch>
+          <main>
+          <Route exact path = "/" component = {About}></Route>
+          <Route exact path = "/Project" component = {Project}></Route>
+          <Route exact path = "/ContactForm" component = {ContactForm}></Route>
+          <Route exact path = "/Resume" component = {Resume}></Route>
+          {/* <Route component = {About}></Route> */}
+          </main>
+        </Switch>
 
-      <Footer></Footer>
+        <Footer></Footer>
+      </Router>
     </div>
   );
 }
