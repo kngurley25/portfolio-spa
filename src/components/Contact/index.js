@@ -4,7 +4,6 @@ import Form from 'react-bootstrap/Form';
 function ContactForm() {
     return (
         <section>
-            <h3>Contact Me</h3>
             <Form>
                 <Form.Group>
                     <Form.Label htmlFor="name">Name</Form.Label>

@@ -4,7 +4,6 @@ import profilePic from '../../assets/images/profile-pic.jpg';
 function About() {
     return (
         <section>
-            <h3>About Me</h3>
             <div className="about-section">
                 <img src={profilePic} className="profile-pic" alt="profile"></img>
                 <div>

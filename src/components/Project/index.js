@@ -23,12 +23,21 @@ function Project() {
             title: 'Weather Dashboard',
             url: 'https://kngurley25.github.io/weather-dashboard/',
             github: 'https://github.com/kngurley25/weather-dashboard'
-        }
+        },
+        {
+            title: 'Code Quiz',
+            url: 'https://kngurley25.github.io/code-quiz/',
+            github: 'https://github.com/kngurley25/code-quiz'
+        },
+        {
+            title: 'Note Taker',
+            url: 'https://rocky-sierra-13505.herokuapp.com/',
+            github: 'https://github.com/kngurley25/note-taker'
+        },
     ]);
 
     return (
         <section>
-            <h3>Portfolio</h3>
             <div className="portfolio-section">
                 {projects.map((project, i) => (
                     <Card style={{ width: '25rem' }}>

@@ -1,8 +1,32 @@
 /* generic page style elements */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  background: var(--light);
+  color: var(--dark);
+  font-family: Arial, Helvetica, sans-serif;
+}
 main {
   margin: 0 auto;
   max-width: 90%;
   padding: 50px 30px;
+  flex-grow: 1;
+}
+.pagewrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 :root {
   --primary: #344966;
@@ -13,24 +37,6 @@ main {
   --accent: teal;
   --padding1: .5rem 3rem;
   --padding2: 1rem 5rem;
-}
-* {
-  box-sizing: border-box;
-}
-html,
-body {
-  min-height: 100%;
-}
-body {
-  margin: 0;
-  padding: 0;
-  font-weight: 600;
-  line-height: 1.5;
-  font-size: 18px;
-  letter-spacing: 0.1em;
-  background: var(--light);
-  color: var(--dark);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* general font sizing */
@@ -133,6 +139,9 @@ header nav ul li {
   font-size: 1rem;
   color: white;
 }
+.card a:hover {
+  color: var(--tertiary)
+}
 .card-title {
   font-weight: bold;
 }
@@ -155,10 +164,9 @@ button {
 
 /* footer */
 footer {
+  border-top: .25rem solid var(--tertiary);
   position: relative;
   bottom: 0;
-  width: 100%;
-  border-top: .25rem solid var(--tertiary);
 }
 footer div {
   display: flex;
