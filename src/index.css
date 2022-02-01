@@ -10,6 +10,7 @@ main {
   --tertiary: #c2847a;
   --light: #eee0cb;
   --dark: #280003ff;
+  --accent: teal;
   --padding1: .5rem 3rem;
   --padding2: 1rem 5rem;
 }
@@ -70,11 +71,7 @@ a {
   padding: var(--padding1);
 }
 a:hover {
-  background-color: var(--tertiary);
-  border-radius: .5rem;
-  border-width: .25rem;
-  border-color: var(--secondary);
-  color: white;
+  color: var(--tertiary)
 }
 
 /* header and navigation */
@@ -96,6 +93,10 @@ header nav ul {
 }
 header nav ul li {
   list-style: none;
+}
+/* from use of NavLink */
+.active {
+  color: var(--accent);
 }
 
 /* section: about */

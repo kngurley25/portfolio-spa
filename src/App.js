@@ -8,24 +8,18 @@ import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
 function App() {
-
-  
-
   return (
     <div>
       <Router>
         <Header></Header>
-
         <Switch>
           <main>
           <Route exact path = "/" component = {About}></Route>
           <Route exact path = "/Project" component = {Project}></Route>
           <Route exact path = "/ContactForm" component = {ContactForm}></Route>
           <Route exact path = "/Resume" component = {Resume}></Route>
-          {/* <Route component = {About}></Route> */}
           </main>
         </Switch>
-
         <Footer></Footer>
       </Router>
     </div>
