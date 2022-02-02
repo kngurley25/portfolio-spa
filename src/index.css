@@ -147,11 +147,12 @@ header nav ul li {
 }
 
 /* section: contact */
-form {
-  width: 200%;
+.form-label {
+  width: 100%;
 }
 .form-control {
   margin-bottom: 1rem;
+  width: 100%;
 }
 button {
   background-color: var(--tertiary);
