@@ -157,6 +157,8 @@ button {
 }
 .resume-section a {
   font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
 }
 .skill-list {
   display: flex;
