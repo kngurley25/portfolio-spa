@@ -8,8 +8,8 @@ function Navigation() {
                 <li>
                     <NavLink 
                     activeClassName="active"
-                    isActive={() => window.location.pathname === "/portfolio-spa"}
-                    to="/portfolio-spa"
+                    isActive={() => window.location.pathname === "/"}
+                    to="/"
                     >
                         About Me
                     </NavLink>
