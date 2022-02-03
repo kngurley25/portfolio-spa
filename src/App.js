@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Header></Header>
         <Switch>
-          <Route exact path = "/" component = {About}></Route>
+          <Route exact path = "/portfolio-spa" component = {About}></Route>
           <Route exact path = "/Project" component = {Project}></Route>
           <Route exact path = "/ContactForm" component = {ContactForm}></Route>
           <Route exact path = "/Resume" component = {Resume}></Route>
