@@ -82,32 +82,13 @@ a:hover {
 }
 
 /* header and navigation */
-header {
-  border-bottom: .25rem solid var(--tertiary);
-}
-header {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-}
-header nav ul {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  align-items: center;
-  list-style: none;
-}
-header nav ul li {
-  list-style: none;
-}
 /* from use of NavLink */
 .active {
   color: var(--accent);
 }
 
 /* section: about */
-.about-section {
+.about {
   display: flex;
   justify-content: space-between;
   align-items: center;

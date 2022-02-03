@@ -1,0 +1,14 @@
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
