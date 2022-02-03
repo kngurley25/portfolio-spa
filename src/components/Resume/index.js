@@ -24,14 +24,14 @@ function Resume() {
                 <h4>Technical Skills</h4>
                 <div>
                     <h5>Languages</h5>
-                    {languages.map((skill) => {
-                        return <li className="skill">{skill}</li>
+                    {languages.map((lan) => {
+                        return <li className="skill" key={lan}>{lan}</li>
                     })}
                 </div>
                 <div>
                     <h5>Applications</h5>
-                    {applications.map((skill) => {
-                        return <li className="skill">{skill}</li>
+                    {applications.map((app) => {
+                        return <li className="skill" key={app}>{app}</li>
                     })}
                 </div>
             </div>
