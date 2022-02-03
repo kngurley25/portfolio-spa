@@ -18,7 +18,8 @@ function App() {
           <Route exact path = "/Project" component = {Project}></Route>
           <Route exact path = "/ContactForm" component = {ContactForm}></Route>
           <Route exact path = "/Resume" component = {Resume}></Route>
-          <Redirect to={About}></Redirect>
+          <Route component={About}></Route>
+          {/* <Redirect to={About}></Redirect> */}
         </Switch>
         <Footer></Footer>
       </Router>

@@ -78,7 +78,7 @@ a {
   padding: var(--padding1);
 }
 a:hover {
-  color: var(--tertiary)
+  color: var(--accent);
 }
 
 /* header and navigation */
