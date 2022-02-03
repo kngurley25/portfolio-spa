@@ -11,14 +11,13 @@ Built with create-react-app
 - react
 - react-router-dom
 - react-boostrap
-
 - JavaScript
 - CSS
 
 ## Images
-*Preview of application*
+*Preview*
 
-![Application User Interface](./scr/assets/images/preview.jpg)
+![Application Preview](./src/assets/images/preview.jpg)
 
 ## Questions
 Reach out to me on GitHub or contact me by email address.  
