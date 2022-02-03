@@ -41,6 +41,7 @@ function ContactForm() {
 
     return (
         <section>
+            <div>
             <Form onSubmit={handleSubmit}>
                 <Form.Group>
                     <Form.Label htmlFor="name">Name</Form.Label>
@@ -61,6 +62,11 @@ function ContactForm() {
                 )}
                 <button type="submit">Submit</button>
             </Form>
+            </div>
+            <div>
+                <p>PHONE | 316.737.6852</p>
+                <p>EMAIL | kngurley25@gmail.com</p>
+            </div>
         </section>
     )
 }
