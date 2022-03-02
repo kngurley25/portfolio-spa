@@ -30,9 +30,9 @@ function Project() {
             github: 'https://github.com/kngurley25/code-quiz'
         },
         {
-            title: 'Note Taker',
-            url: 'https://rocky-sierra-13505.herokuapp.com/',
-            github: 'https://github.com/kngurley25/note-taker'
+            title: 'Disc Golf Score Card',
+            url: 'https://calm-peak-91863.herokuapp.com/',
+            github: 'https://github.com/kngurley25/dg-score-card'
         },
     ]);
 
